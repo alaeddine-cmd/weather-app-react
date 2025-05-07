@@ -1,0 +1,95 @@
+
+/* Container */
+.container {
+  margin: 60px auto;
+  max-width: 400px;
+  width: 100%;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+}
+
+.search-icon {
+  background: var(--button-bg);
+  border: none;
+  cursor: pointer;
+  color: var(--button-text-color);
+  font-size: 1.2rem;
+  margin-right: 8px;
+  padding: 10px 15px;
+}
+
+.search-box > input {
+  flex: 0.9;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+/* Card Container */
+.card-container {
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 50px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  padding: 5px;
+}
+
+.card-container:hover {
+  box-shadow: var(--box-shadow);
+}
+
+/* Image */
+#card-image {
+  height: 100px;
+}
+
+/* Location Information */
+#location-title,
+#location-temp,
+#location-condition,
+#location-hum {
+  margin-bottom: -10px;
+}
+
+/* Forecast Container */
+.forecast-container {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--card-bg); /* Use the card background color */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.forecast {
+  display: flex;
+  flex-direction: column;
+}
+
+.forecast > b {
+  margin-bottom: 20px;
+  height: 91px;
+  width: 40px;
+}
+
+/* Forecast Image */
+#forecast-image {
+  height: 50px;
+  margin-bottom: 10px;
+}

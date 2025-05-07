@@ -1,0 +1,57 @@
+/* Sunny Theme */
+:root[weather-theme="sunny"] {
+  --background-color: #fffbf3; 
+  --text-color: #333333; 
+  --border-color: #f0c14b;
+  --card-bg: #ffffff;
+  --button-bg: #ffb81c; 
+  --button-text-color: #ffffff; 
+  --box-shadow:
+  -6px -6px 8px rgba(255, 184, 28, 0.2),
+   6px -6px 8px rgba(255, 184, 28, 0.2),
+   6px  6px 8px rgba(255, 184, 28, 0.2),
+  -6px  6px 8px rgba(255, 184, 28, 0.2);
+}
+
+
+
+/* Rainy Theme */
+:root[weather-theme="rainy"] {
+  --background-color: #37474f; 
+  --text-color: #e0e0e0;
+  --border-color: #455a64;
+  --card-bg: #607d8b; 
+  --button-bg: #64b5f6; 
+  --button-text-color: #ffffff; 
+  --box-shadow:
+  -6px -6px 8px rgba(64, 144, 202, 0.2),
+   6px -6px 8px rgba(64, 144, 202, 0.2),
+   6px  6px 8px rgba(64, 144, 202, 0.2),
+  -6px  6px 8px rgba(64, 144, 202, 0.2);
+
+}
+
+/* Windy Theme */
+:root[weather-theme="windy"] {
+  --background-color: #cce7ff;
+  --text-color: #1f3a53; 
+  --border-color: #4d8ca1; 
+  --card-bg: #ffffff; 
+  --button-bg: #5ab3ff; 
+  --button-text-color: #ffffff; 
+  --box-shadow:
+    -6px -6px 8px rgba(90, 179, 255, 0.2),
+     6px -6px 8px rgba(90, 179, 255, 0.2),
+     6px  6px 8px rgba(90, 179, 255, 0.2),
+    -6px  6px 8px rgba(90, 179, 255, 0.2);
+
+}
+
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-color: var(--border-color);
+  font-family: 'Arial', sans-serif; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
