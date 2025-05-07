@@ -1,8 +1,7 @@
-
 /* Container */
 .container {
   margin: 60px auto;
-  max-width: 400px;
+  max-width: 370px;
   width: 100%;
   background-color: var(--card-bg);
   color: var(--text-color);
@@ -92,4 +91,11 @@
 #forecast-image {
   height: 50px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  body {
+    max-width: 300px;
+    margin: 20px;
+  }
 }
