@@ -73,9 +73,3 @@ yarn dev
 yarn build
 ```
 
-
-## 🌐 Live Demo
-
-👉 [Click here to view the live app](https://weather-app-react-qkaz.onrender.com)
-
----
